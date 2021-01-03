@@ -21,8 +21,8 @@ event HudHealthBonusPulseStop
 
 	Animate	HealthBG					BgColor		"Blank"				Linear 0.0 0.0
 
-	Animate PlayerStatusHealthValue		FgColor		"HudWhite"			Linear 0.0 0.0
-	Animate GuiPlayerHealth				FgColor		"HudWhite"			Linear 0.0 0.0
+	Animate	PlayerStatusHealthValue		FgColor		"HudWhite"			Linear 0.0 0.0
+	Animate	GuiPlayerHealth				FgColor		"HudWhite"			Linear 0.0 0.0
 	Animate RedPlayerHealth				FgColor		"HudWhite"			Linear 0.0 0.0
 	Animate BluePlayerHealth			FgColor		"HudWhite"			Linear 0.0 0.0
 }
@@ -33,7 +33,7 @@ event HudHealthDyingPulse
 	Animate	HealthBG					BgColor		"LowHealth"			Linear 0.0 0.2
 	Animate	HealthBG					BgColor		"LowHealthPulse"	Linear 0.2 0.6
 
-//	Animate PlayerStatusHealthValue		FgColor		"LowHealth"			Linear 0.0 0.2
+//	Animate	PlayerStatusHealthValue		FgColor		"LowHealth"			Linear 0.0 0.2
 //	Animate PlayerStatusHealthValue		FgColor		"LowHealthPulse"	Linear 0.2 0.6
 
 	Animate	GuiPlayerHealth				FgColor		"NegativeValue"		Linear 0.0 0.0
@@ -145,11 +145,10 @@ event HudSpyDisguiseChanged
 
 event HudSnapShotReminderIn
 {
-    RunEvent DefaultAnimHudSnapShotReminderIn	0.0
-    RunEvent HudHealthBonusPulseStop 			0.0
-    RunEvent HudHealthDyingPulseStop 			0.0
-    RunEvent HudLowAmmoPulseStop 				0.0
-    RunEvent HudMedicChargedStop 				0.0
+    RunEvent HudHealthDyingPulseStop 			10.0
+    RunEvent HudHealthBonusPulseStop 			10.0
+    RunEvent HudLowAmmoPulseStop 				10.0
+    RunEvent HudMedicChargedStop 				10.0
 }
 //==================================================================================
 
@@ -160,18 +159,18 @@ event TrainingHudBounce
 }
 //==================================================================================
 
-event CompetitiveGame_LowerChatWindow
-{ 
-	Animate HudChat ypos r120 Accel 0 0
-}
-
-event CompetitiveGame_RestoreChatWindow
-{ 
-	Animate HudChat ypos 25 Accel 0 0
-}
-
-event HudTournament_MoveChatWindow
+event TeamStatus_PlayerDead
 {
-	RunEvent CompetitiveGame_LowerChatWindow 0
-	RunEvent CompetitiveGame_RestoreChatWindow 0
+	SetVisible	respawntime	1	0
 }
+
+event TeamStatus_PlayerAlive
+{
+	SetVisible	respawntime	0	0.2
+}
+
+//==================================================================================
+
+event CompetitiveGame_LowerChatWindow { }
+event CompetitiveGame_RestoreChatWindow { }
+event HudTournament_MoveChatWindow { }

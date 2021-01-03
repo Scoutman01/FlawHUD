@@ -17,40 +17,40 @@
 
 	"mouseoveritempanel"
 	{
-		"ControlName"		"CItemModelPanel"
-		"fieldName"			"mouseoveritempanel"
-		"xpos"				"c-70"
-		"ypos"				"270"
-		"zpos"				"100"
-		"wide"				"300"
-		"tall"				"300"
-		"visible"			"0"
-		"bgcolor_override"	"Transparent"
-		"noitem_textcolor"	"TextColor"
+		"ControlName"			"CItemModelPanel"
+		"fieldName"				"mouseoveritempanel"
+		"xpos"					"c-70"
+		"ypos"					"270"
+		"zpos"					"100"
+		"wide"					"300"
+		"tall"					"300"
+		"visible"				"0"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
-		"paintborder"		"1"
-		"text_ypos"			"20"
-		"text_center"		"1"
-		"model_hide"		"1"
-		"resize_to_text"	"1"
-		"padding_height"	"15"
+		"paintborder"			"1"
+		"text_ypos"				"20"
+		"text_center"			"1"
+		"model_hide"			"1"
+		"resize_to_text"		"1"
+		"padding_height"		"15"
 
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
-			"xpos"			"0"
-			"ypos"			"30"
-			"zpos"			"2"
-			"wide"			"140"
-			"tall"			"60"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%attriblist%"
-			"textAlignment"	"center"
-			"fgcolor"		"TextColor"
-			"centerwrap"	"1"
+			"font"				"ItemFontAttribLarge"
+			"xpos"				"0"
+			"ypos"				"30"
+			"zpos"				"2"
+			"wide"				"140"
+			"tall"				"60"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+			"labelText"			"%attriblist%"
+			"textAlignment"		"center"
+			"fgcolor"			"TextColor"
+			"centerwrap"		"1"
 		}
 	}
 
@@ -92,6 +92,7 @@
 		"paintbackground"	"0"
 		"border"			"BackpackItemBorder_SelfMade"
 	}
+	
 	"tool_icon"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -108,6 +109,7 @@
 		"tileVertically"	"0"
 		"drawcolor"			"112 176 74 255"
 	}
+	
 	"tool_modelpanel"
 	{
 		"ControlName"		"CItemModelPanel"
@@ -138,6 +140,7 @@
 			"inventory_image_type"	"1"
 		}
 	}
+	
 	"SubjectBG"
 	{
 		"ControlName"		"CExLabel"
@@ -157,6 +160,7 @@
 		"paintbackground"	"0"
 		"border"			"BackpackItemBorder_Vintage"
 	}
+	
 	"subject_icon"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -173,6 +177,7 @@
 		"tileVertically"	"0"
 		"drawcolor"			"71 98 145 255"
 	}
+	
 	"subject_modelpanel"
 	{
 		"ControlName"		"CItemModelPanel"

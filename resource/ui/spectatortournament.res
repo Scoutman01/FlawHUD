@@ -1,3 +1,5 @@
+#base "hudinspectpanel.res"
+
 "Resource/UI/SpectatorTournament.res"
 {
 	"specgui"
@@ -92,7 +94,7 @@
 				"proportionalToParent"	"1"
 				//fillcolor_override 	"255 0 0 32"
 			}
-			
+
 			"StatusEffectIconRed"
 			{
 				"ControlName"			"ImagePanel"
@@ -108,7 +110,7 @@
 				"proportionalToParent"	"1"
 				"image"					""
 			}
-			
+
 			"StatusEffectIconBlue"
 			{
 				"ControlName"			"ImagePanel"
@@ -289,7 +291,7 @@
 				"zpos"				"24"
 				"wide"				"28"
 				"tall"				"f0"
-				"font"				"ItemFontNameSmallest"
+				"font"				"FontRegular10"
 				"fgcolor"			"White"
 				"labelText"			"%respawntime%"
 				"textAlignment"		"east"
@@ -310,7 +312,7 @@
 				"zpos"				"24"
 				"wide"				"28"
 				"tall"				"f0"
-				"font"				"ItemFontNameSmallest"
+				"font"				"FontRegular10"
 				"fgcolor"			"White"
 				"labelText"			"%respawntime%"
 				"textAlignment"		"east"
@@ -347,9 +349,9 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"chargeamount"
-				"font"				"FontBold10Outline"
+				"font"				"FontBold9Outline"
 				"xpos"				"140"
-				"ypos"				"1"
+				"ypos"				"7"
 				"zpos"				"201"
 				"wide"				"20"
 				"tall"				"20"
@@ -357,17 +359,17 @@
 				"pinCorner"			"0"
 				"visible"			"1"
 				"labelText"			"%chargeamount%"
-				"textAlignment"		"south"
-				"fgcolor_override"	"0 255 0 205"
+				"textAlignment"		"center"
+				"fgcolor_override"	"White"
 			}
 
 			"RedChargeAmount"
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"RedChargeAmount"
-				"font"				"FontBold10Outline"
+				"font"				"FontBold9Outline"
 				"xpos"				"140"
-				"ypos"				"1"
+				"ypos"				"7"
 				"zpos"				"6"
 				"wide"				"20"
 				"tall"				"20"
@@ -375,8 +377,8 @@
 				"pinCorner"			"0"
 				"visible"			"1"
 				"labelText"			"%chargeamount%"
-				"textAlignment"		"south"
-				"fgcolor_override"	"0 255 0 205"
+				"textAlignment"		"center"
+				"fgcolor_override"	"White"
 			}
 		}
 	}
@@ -416,6 +418,7 @@
 			"ypos"		"90"
 		}
 	}
+
 	"BuyBackLabel"
 	{
 		"ControlName"	"CExLabel"

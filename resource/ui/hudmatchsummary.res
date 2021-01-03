@@ -210,10 +210,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-
-				"pin_to_sibling"		"StatsAndMedals"
-				"pin_corner_to_sibling"	"PIN_TOPLEFT"
-				"pin_to_sibling_corner"	"PIN_TOPLEFT"
+				"pin_to_sibling"	"StatsAndMedals"
 			}
 		}
 
@@ -295,8 +292,8 @@
 					"fgcolor"		"ShadowBlack"
 					"labelText"		"%blueteamscore%"
 					"textAlignment"	"east"
-					"xpos"			"7"
-					"ypos"			"103"
+					"xpos"			"6"
+					"ypos"			"102"
 					"zpos"			"3"
 					"wide"			"p.19"
 					"tall"			"30"

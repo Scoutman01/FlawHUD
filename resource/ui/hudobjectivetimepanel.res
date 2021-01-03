@@ -23,24 +23,7 @@
 	{
 		"ControlName"		"CTFProgressBar"
 		"fieldName"			"TimePanelProgressBar"
-		"xpos"				"15"
-		"ypos"				"16"
-		"zpos"				"4"
-		"wide"				"20"
-		"tall"				"20"
-		"visible"			"0"
-		"enabled"			"1"
-		"scaleImage"		"1"
-		"image"				"../hud/objectives_timepanel_progressbar"
-		"color_active"		"TimerProgress.Active"
-		"color_inactive"	"TimerProgress.InActive"
-		"color_warning"		"TimerProgress.Warning"
-		"percent_warning"	"0.75"
-
-		if_match
-		{
-			"xpos"			"9999"
-		}
+		"xpos"				"9999"
 	}
 
 	"WaitingForPlayersLabel"
@@ -111,24 +94,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SuddenDeathLabel"
-		"xpos"				"15"
-		"ypos"				"18"
-		"zpos"				"5"
-		"wide"				"50"
-		"tall"				"15"
-		"visible"			"1"
-		"enabled"			"1"
-		"labelText"			"#game_SuddenDeath"
-		"textAlignment"		"center"
-		"dulltext"			"0"
-		"brighttext"		"0"
-		"wrap"				"0"
-		"font"				"FontRegular10"
-
-		if_match
-		{
-			"xpos"			"9999"
-		}
+		"xpos"				"9999"
 	}
 	"SuddenDeathBG"
 	{
@@ -175,7 +141,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"ServerTimeLimitLabel"
 		"xpos"				"70"
-		"ypos"				"5"
+		"ypos"				"4"
 		"zpos"				"5"
 		"wide"				"80"
 		"tall"				"10"
@@ -192,7 +158,7 @@
 		{
 			"xpos"			"0"
 			"textAlignment"	"center"
-			"ypos"			"25"
+			"ypos"			"23"
 		}
 
 		if_mvm

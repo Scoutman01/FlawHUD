@@ -12,7 +12,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_left"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 
 	"RightSideBG"
@@ -27,9 +27,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_right"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
-		
+	
 	"OutlineBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -48,12 +48,11 @@
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"west"
 		"labelText"		"%bluescore%"
 		"font"			"FontBold20"
 		"fgcolor"		"White"
-	}	
-		
+	}
 	"BlueScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -65,16 +64,13 @@
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"west"
 		"labelText"		"%bluescore%"
 		"font"			"FontBold20"
 		"fgcolor"		"ShadowBlack"
+		"pin_to_sibling"	"BlueScore"
+	}
 
-		"pin_to_sibling"		"BlueScore"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-	}	
-							
 	"RedScore"
 	{
 		"ControlName"	"CExLabel"
@@ -86,12 +82,11 @@
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"east"
 		"labelText"		"%redscore%"
 		"font"			"FontBold20"
-		"fgcolor"		"White"		
-	}	
-		
+		"fgcolor"		"White"
+	}
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -103,14 +98,11 @@
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"east"
 		"labelText"		"%redscore%"
 		"font"			"FontBold20"
 		"fgcolor"		"ShadowBlack"
-
-		"pin_to_sibling"		"RedScore"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"pin_to_sibling"	"RedScore"
 	}
 	
 	"PlayingTo"
@@ -159,6 +151,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 }

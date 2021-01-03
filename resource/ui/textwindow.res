@@ -53,20 +53,19 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"			"TextMessage"
-		"visible"			"0"
-		"enabled"			"0"
+		"xpos"				"9999"
 	}
 
 	"TFTextMessage"
 	{
 		"ControlName"		"CExRichText"
 		"fieldName"			"TFTextMessage"
-		"font"				"FontRegular10"
+		"font"				"FontRegular12"
 		"xpos"				"c-170"
 		"ypos"				"c-90"
 		"zpos"				"1"
 		"wide"				"340"
-		"tall"				"180"
+		"tall"				"185"
 		"autoResize"		"3"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -114,12 +113,10 @@
 		"default"			"1"
 		"font"				"FontBold14"
 		"paintbackground"	"0"
-
-		"fgcolor"					"White"
+		
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override"		"TanDark"
-		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" 	"TanDark"
+		"depressedFgColor_override" "White"
 	}
 
 	"MenuBG"
@@ -140,19 +137,18 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"MessageTitle"
-		"visible"			"0"
-		"enabled"			"0"
+		"xpos"				"9999"
 	}
 
 	"teambutton0SC"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"teambutton0SC"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"&E"
-		"command"		"okay"
+		"ControlName"		"CExButton"
+		"fieldName"			"teambutton0SC"
+		"wide"				"0"
+		"tall"				"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"&E"
+		"command"			"okay"
 	}
 }

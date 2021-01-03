@@ -78,6 +78,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}
@@ -125,6 +126,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}
@@ -202,7 +204,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#Cancel"
-		"font"				"FontBold12"
+		"font"				"FontBold14"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
@@ -227,7 +229,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#CraftNameConfirm"
-		"font"				"FontBold12"
+		"font"				"FontBold14"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"

@@ -17,23 +17,23 @@
 
 	"mouseoveritempanel"
 	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"mouseoveritempanel"
-		"xpos"			"c-70"
-		"ypos"			"270"
-		"zpos"			"100"
-		"wide"			"300"
-		"tall"			"300"
-		"visible"		"0"
+		"ControlName"			"CItemModelPanel"
+		"fieldName"				"mouseoveritempanel"
+		"xpos"					"c-70"
+		"ypos"					"270"
+		"zpos"					"100"
+		"wide"					"300"
+		"tall"					"300"
+		"visible"				"0"
 		"bgcolor_override"		"Transparent"
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
-		"paintborder"		"1"
-		"text_ypos"			"20"
-		"text_center"		"1"
-		"model_hide"		"1"
-		"resize_to_text"	"1"
-		"padding_height"	"15"
+		"paintborder"			"1"
+		"text_ypos"				"20"
+		"text_center"			"1"
+		"model_hide"			"1"
+		"resize_to_text"		"1"
+		"padding_height"		"15"
 
 		"attriblabel"
 		{
@@ -122,6 +122,7 @@
 			"inventory_image_type"	"1"
 		}
 	}
+	
 	"SubjectBG"
 	{
 		"ControlName"	"CExLabel"
@@ -141,6 +142,7 @@
 		"paintbackground" "0"
 		"border"		"BackpackItemBorder_Vintage"
 	}
+
 	"subject_modelpanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -166,6 +168,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}

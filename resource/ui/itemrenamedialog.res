@@ -36,24 +36,6 @@
 		"resize_to_text"	"1"
 		"padding_height"	"15"
 
-		"BackColor"
-    	{
-    		"ControlName"		"EditablePanel"
-    		"fieldName"			"BackColor"
-    		"xpos"				"0"
-    		"ypos"				"0"
-    		"zpos"				"-1"
-    		"wide"				"f0"
-    		"tall"	 			"f0"
-    		"visible"			"1"
-    		"enabled"			"1"
-			"pinCorner"			"0"
-			"autoResize"		"0"
-			"PaintBackgroundType"	"2"
-			"border"				"NoBorder"
-			"bgcolor_override"		"DarkerGrey"
-		}
-
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -125,7 +107,6 @@
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
-
 		"model_xpos"	"2"
 		"model_ypos"	"5"
 		"model_wide"	"80"
@@ -175,7 +156,6 @@
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
-
 		"model_xpos"	"2"
 		"model_ypos"	"5"
 		"model_wide"	"80"
@@ -352,7 +332,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"FontBold12"
+		"font"			"FontBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -377,7 +357,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#CraftNameOk"
-		"font"			"FontBold12"
+		"font"			"FontBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
